@@ -1,0 +1,187 @@
+[
+    {
+        "name": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+        "sensitive": true,
+        "value": "identity-applicationinsights-connection-string"
+    },
+    {
+        "name": "APPLICATIONINSIGHTS_ROLE_NAME",
+        "sensitive": false,
+        "value": "lpg-lpgintegration-identity"
+    },
+    {
+        "name": "ASSET_CDN",
+        "sensitive": true,
+        "value": "identity-asset-cdn"
+    },
+    {
+        "name": "DATASOURCE",
+        "sensitive": true,
+        "value": "identity-datasource"
+    },
+    {
+        "name": "DOCKER_ENABLE_CI",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
+        "sensitive": true,
+        "value": "identity-docker-registry-server-password"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_URL",
+        "sensitive": false,
+        "value": "https://lpgregistry.azurecr.io"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
+        "sensitive": true,
+        "value": "identity-docker-registry-server-username"
+    },
+    {
+        "name": "DURATION_AFTER_REREG_ALLOWED_SECONDS",
+        "sensitive": false,
+        "value": "86400"
+    },
+    {
+        "name": "EMAIL_TEMPLATE_ID",
+        "sensitive": true,
+        "value": "identity-email-template-id"
+    },
+    {
+        "name": "ENCRYPTION_KEY",
+        "sensitive": true,
+        "value": "identity-encryption-key"
+    },
+    {
+        "name": "ENV_PROFILE",
+        "sensitive": false,
+        "value": "integration"
+    },
+    {
+        "name": "GOV_NOTIFY_API_KEY",
+        "sensitive": true,
+        "value": "identity-gov-notify-api-key"
+    },
+    {
+        "name": "GOV_NOTIFY_INVITE_TEMPLATE_ID",
+        "sensitive": true,
+        "value": "identity-gov-notify-invite-template-id"
+    },
+    {
+        "name": "GOV_NOTIFY_RESET_SUCCESSFUL_TEMPLATE_ID",
+        "sensitive": true,
+        "value": "identity-gov-notify-reset-successful-template-id"
+    },
+    {
+        "name": "GOV_NOTIFY_RESET_TEMPLATE_ID",
+        "sensitive": true,
+        "value": "identity-gov-notify-reset-template-id"
+    },
+    {
+        "name": "IDENTITY_BASE_URL",
+        "sensitive": false,
+        "value": "https://identity.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "INVITE_SIGNUP_URL",
+        "sensitive": false,
+        "value": "https://identity.integration.learn.civilservice.gov.uk/signup/%s"
+    },
+    {
+        "name": "INVITE_VALIDITY",
+        "sensitive": false,
+        "value": "259200"
+    },
+    {
+        "name": "JWT_KEY",
+        "sensitive": true,
+        "value": "identity-jwt-key"
+    },
+    {
+        "name": "LPG_UI_URL",
+        "sensitive": false,
+        "value": "https://integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "MAINTENANCE_PAGE_CONTENT_LINE_1",
+        "sensitive": false,
+        "value": "The learning website is undergoing scheduled maintenance."
+    },
+    {
+        "name": "MAINTENANCE_PAGE_CONTENT_LINE_2",
+        "sensitive": false,
+        "value": "It will be unavailable between the hours of 7pm to 9pm on Wednesday 24th February 2021."
+    },
+    {
+        "name": "MAINTENANCE_PAGE_CONTENT_LINE_3",
+        "sensitive": false,
+        "value": "Apologies for the inconvenience."
+    },
+    {
+        "name": "MAINTENANCE_PAGE_CONTENT_LINE_4",
+        "sensitive": false,
+        "value": "If the maintenance period is extended, further information will be provided here."
+    },
+    {
+        "name": "MAINTENANCE_PAGE_ENABLED",
+        "sensitive": false,
+        "value": "false"
+    },
+    {
+        "name": "OAUTH_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://identity.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "REDIS_HOST",
+        "sensitive": false,
+        "value": "lpg-lpgintegration-redis-session.redis.cache.windows.net"
+    },
+    {
+        "name": "REDIS_PASSWORD",
+        "sensitive": true,
+        "value": "identity-redis-password"
+    },
+    {
+        "name": "REDIS_PORT",
+        "sensitive": false,
+        "value": "6379"
+    },
+    {
+        "name": "REGISTRY_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://civil-servant-registry.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "RESET_URL",
+        "sensitive": false,
+        "value": "https://identity.integration.learn.civilservice.gov.uk/reset/%s"
+    },
+    {
+        "name": "SESSION_TIMEOUT",
+        "sensitive": false,
+        "value": "3600"
+    },
+    {
+        "name": "WEBSITES_CONTAINER_START_TIME_LIMIT",
+        "sensitive": false,
+        "value": "600"
+    },
+    {
+        "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+        "sensitive": false,
+        "value": "false"
+    },
+    {
+        "name": "WEBSITES_PORT",
+        "sensitive": false,
+        "value": "8080"
+    },
+    {
+        "name": "WHITELISTED_DOMAINS",
+        "sensitive": true,
+        "value": "identity-whitelisted-domains"
+    }
+]

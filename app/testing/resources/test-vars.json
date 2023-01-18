@@ -1,0 +1,17 @@
+[
+    {
+        "name": "MY_VAR1",
+        "sensitive": false,
+        "value": "123"
+    },
+    {
+        "name": "MY_VAR2",
+        "sensitive": true,
+        "value": "test-second-bulk-var-secret"
+    },
+    {
+        "name": "MY_VAR2",
+        "sensitive": false,
+        "value": "123456"
+    }
+]

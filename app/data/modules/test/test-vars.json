@@ -1,0 +1,12 @@
+[
+    {
+        "name": "MYSQL_URL",
+        "sensitive": false,
+        "value": "http://localhost:3306"
+    },
+    {
+        "name": "MYSQL_PASS",
+        "sensitive": true,
+        "value": "test-mysql-pass"
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "name": "API_HOST",
+        "sensitive": false,
+        "value": "localhost"
+    },
+    {
+        "name": "API_PORT",
+        "sensitive": false,
+        "value": "8082"
+    },
+    {
+        "name": "DOCKER_ENABLE_CI",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
+        "sensitive": true,
+        "value": "learning-locker-ui-docker-registry-server-password"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_URL",
+        "sensitive": false,
+        "value": "https://lpgregistry.azurecr.io"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
+        "sensitive": true,
+        "value": "learning-locker-ui-docker-registry-server-username"
+    },
+    {
+        "name": "ENV_PROFILE",
+        "sensitive": false,
+        "value": "integration"
+    },
+    {
+        "name": "MONGODB_PATH",
+        "sensitive": true,
+        "value": "learning-locker-ui-mongodb-path"
+    },
+    {
+        "name": "TESTING",
+        "sensitive": false,
+        "value": "1"
+    },
+    {
+        "name": "UI_HOST",
+        "sensitive": false,
+        "value": "lpg-lpgintegration-learning-locker-ui.azurewebsites.net"
+    },
+    {
+        "name": "UI_PORT",
+        "sensitive": false,
+        "value": "80"
+    },
+    {
+        "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+        "sensitive": false,
+        "value": "false"
+    },
+    {
+        "name": "WEBSITES_PORT",
+        "sensitive": false,
+        "value": "3000"
+    }
+]
