@@ -1,0 +1,192 @@
+[
+    {
+        "name": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+        "sensitive": true,
+        "value": "lpg-management-applicationinsights-connection-string"
+    },
+    {
+        "name": "APPLICATIONINSIGHTS_ROLE_NAME",
+        "sensitive": false,
+        "value": "lpg-lpgintegration-lpg-management"
+    },
+    {
+        "name": "AUTHENTICATION_SERVICE_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "60000"
+    },
+    {
+        "name": "AUTHENTICATION_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://identity.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "CALLBACK_URL",
+        "sensitive": false,
+        "value": "https://management.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "CONTENT_URL",
+        "sensitive": false,
+        "value": "https://cdn.integration.learn.civilservice.gov.uk/lpgdevcontent"
+    },
+    {
+        "name": "COURSE_CATALOGUE_PASS",
+        "sensitive": true,
+        "value": "lpg-management-course-catalogue-pass"
+    },
+    {
+        "name": "COURSE_CATALOGUE_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "60000"
+    },
+    {
+        "name": "COURSE_CATALOGUE_URL",
+        "sensitive": false,
+        "value": "https://learning-resources.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "COURSE_CATALOGUE_USER",
+        "sensitive": false,
+        "value": "course_catalogue_user"
+    },
+    {
+        "name": "DOCKER_ENABLE_CI",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-management-docker-registry-server-password"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_URL",
+        "sensitive": false,
+        "value": "https://lpgregistry.azurecr.io"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
+        "sensitive": true,
+        "value": "lpg-management-docker-registry-server-username"
+    },
+    {
+        "name": "ENV_PROFILE",
+        "sensitive": false,
+        "value": "integration"
+    },
+    {
+        "name": "LEARNER_RECORD_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "60000"
+    },
+    {
+        "name": "LEARNER_RECORD_URL",
+        "sensitive": false,
+        "value": "https://learning-record.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "LPG_UI_URL",
+        "sensitive": false,
+        "value": "https://integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "OAUTH_CLIENT_ID",
+        "sensitive": true,
+        "value": "lpg-management-oauth-client-id"
+    },
+    {
+        "name": "OAUTH_CLIENT_SECRET",
+        "sensitive": true,
+        "value": "lpg-management-oauth-client-secret"
+    },
+    {
+        "name": "ORG_REDIS_HOST",
+        "sensitive": false,
+        "value": "lpg-lpgintegration-redis-org.redis.cache.windows.net"
+    },
+    {
+        "name": "ORG_REDIS_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-management-org-redis-password"
+    },
+    {
+        "name": "ORG_REDIS_PORT",
+        "sensitive": false,
+        "value": "6379"
+    },
+    {
+        "name": "ORG_REDIS_TTL",
+        "sensitive": false,
+        "value": "604800"
+    },
+    {
+        "name": "REDIS_HOST",
+        "sensitive": false,
+        "value": "lpg-lpgintegration-redis-session.redis.cache.windows.net"
+    },
+    {
+        "name": "REDIS_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-management-redis-password"
+    },
+    {
+        "name": "REDIS_PORT",
+        "sensitive": false,
+        "value": "6379"
+    },
+    {
+        "name": "REGISTRY_SERVICE_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "60000"
+    },
+    {
+        "name": "REGISTRY_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://civil-servant-registry.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "REPORT_SERVICE_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "235000"
+    },
+    {
+        "name": "REPORT_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://report.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "REQUEST_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "60000"
+    },
+    {
+        "name": "SERVER_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "235000"
+    },
+    {
+        "name": "SESSION_SECRET",
+        "sensitive": true,
+        "value": "lpg-management-session-secret"
+    },
+    {
+        "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+        "sensitive": false,
+        "value": "false"
+    },
+    {
+        "name": "WEBSITES_PORT",
+        "sensitive": false,
+        "value": "3005"
+    },
+    {
+        "name": "YOUTUBE_API_KEY",
+        "sensitive": true,
+        "value": "lpg-management-youtube-api-key"
+    },
+    {
+        "name": "YOUTUBE_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "60000"
+    }
+]

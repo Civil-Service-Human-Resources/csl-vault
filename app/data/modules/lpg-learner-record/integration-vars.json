@@ -1,0 +1,132 @@
+[
+    {
+        "name": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+        "sensitive": true,
+        "value": "lpg-learner-record-applicationinsights-connection-string"
+    },
+    {
+        "name": "APPLICATIONINSIGHTS_ROLE_NAME",
+        "sensitive": false,
+        "value": "lpg-lpgintegration-lpg-learner-record"
+    },
+    {
+        "name": "CLIENT_ID",
+        "sensitive": true,
+        "value": "lpg-learner-record-client-id"
+    },
+    {
+        "name": "CLIENT_SECRET",
+        "sensitive": true,
+        "value": "lpg-learner-record-client-secret"
+    },
+    {
+        "name": "COMPLETED_JOB_CRON",
+        "sensitive": false,
+        "value": "0 0 4 * * *"
+    },
+    {
+        "name": "COMPLETED_JOB_ENABLED",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "DATASOURCE",
+        "sensitive": true,
+        "value": "lpg-learner-record-datasource"
+    },
+    {
+        "name": "DOCKER_ENABLE_CI",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-learner-record-docker-registry-server-password"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_URL",
+        "sensitive": false,
+        "value": "https://lpgregistry.azurecr.io"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
+        "sensitive": true,
+        "value": "lpg-learner-record-docker-registry-server-username"
+    },
+    {
+        "name": "ENV_PROFILE",
+        "sensitive": false,
+        "value": "integration"
+    },
+    {
+        "name": "GOV_NOTIFY_API_KEY",
+        "sensitive": true,
+        "value": "lpg-learner-record-gov-notify-api-key"
+    },
+    {
+        "name": "GOV_NOTIFY_LEARNING_COMPLETED_TEMPLATE_ID",
+        "sensitive": true,
+        "value": "lpg-learner-record-gov-notify-learning-completed-template-id"
+    },
+    {
+        "name": "GOV_NOTIFY_REQUIRED_LEARNING_DUE_TEMPLATE_ID",
+        "sensitive": true,
+        "value": "lpg-learner-record-gov-notify-required-learning-due-template-id"
+    },
+    {
+        "name": "INCOMPLETE_JOB_CRON",
+        "sensitive": false,
+        "value": "0 30 5 * * *"
+    },
+    {
+        "name": "INCOMPLETED_JOB_ENABLED",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "JWT_KEY",
+        "sensitive": true,
+        "value": "lpg-learner-record-jwt-key"
+    },
+    {
+        "name": "LEARNING_CATALOGUE_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://learning-resources.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "LPG_UI_URL",
+        "sensitive": false,
+        "value": "https://integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "NOTIFICATION_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://lpg-lpgintegration-notification-service.azurewebsites.net"
+    },
+    {
+        "name": "OAUTH_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://identity.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "REGISTRY_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://civil-servant-registry.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "SPRING_PROFILES_ACTIVE",
+        "sensitive": false,
+        "value": "test,production"
+    },
+    {
+        "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+        "sensitive": false,
+        "value": "false"
+    },
+    {
+        "name": "WEBSITES_PORT",
+        "sensitive": false,
+        "value": "9000"
+    }
+]

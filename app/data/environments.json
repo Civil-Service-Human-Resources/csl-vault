@@ -1,0 +1,30 @@
+{
+    "integration": {
+        "vault": "https://kv-lpgintegration-vars.vault.azure.net/",
+        "subscription": "CSL-Staging",
+        "resourceGroup": "lpgintegration",
+        "modules": {
+            "civil-servant-registry-service": "lpg-lpgintegration-civil-servant-registry",
+            "identity": "lpg-lpgintegration-identity",
+            "identity-management": "lpg-lpgintegration-identity-management",
+            "learning-locker-ui": "lpg-lpgintegration-learning-locker-ui",
+            "learning-locker-worker": "lpg-lpgintegration-learning-locker-api-worker",
+            "learning-locker-xapi": "lpg-lpgintegration-learning-locker-xapi",
+            "lpg-learner-record": "lpg-lpgintegration-lpg-learner-record",
+            "lpg-learning-catalogue": "lpg-lpgintegration-lpg-learning-catalogue",
+            "lpg-management": "lpg-lpgintegration-lpg-management",
+            "lpg-report-service": "lpg-lpgintegration-lpg-report-service",
+            "lpg-ui": "lpg-lpgintegration-lpg-ui",
+            "notification-service": "lpg-lpgintegration-notification-service"
+        }
+    },
+    "test": {
+        "subscription": "CSL-Staging",
+        "resourceGroup": "lpgintegration",
+        "vault": "https://savvastest1.vault.azure.net/",
+        "modules": {
+            "test": "savvastest1"
+        }
+
+    }
+}

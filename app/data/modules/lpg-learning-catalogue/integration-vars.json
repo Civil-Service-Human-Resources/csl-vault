@@ -1,0 +1,127 @@
+[
+    {
+        "name": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-applicationinsights-connection-string"
+    },
+    {
+        "name": "APPLICATIONINSIGHTS_ROLE_NAME",
+        "sensitive": false,
+        "value": "lpg-lpgintegration-lpg-learning-catalogue"
+    },
+    {
+        "name": "AUTH_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-auth-password"
+    },
+    {
+        "name": "AUTH_USER",
+        "sensitive": false,
+        "value": "user"
+    },
+    {
+        "name": "AZURE_ACCOUNT_KEY",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-azure-account-key"
+    },
+    {
+        "name": "AZURE_ACCOUNT_NAME",
+        "sensitive": false,
+        "value": "lpgdev"
+    },
+    {
+        "name": "AZURE_STORAGE_CONTAINER",
+        "sensitive": false,
+        "value": "lpgdevcontent"
+    },
+    {
+        "name": "CLIENT_ID",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-client-id"
+    },
+    {
+        "name": "CLIENT_SECRET",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-client-secret"
+    },
+    {
+        "name": "DOCKER_ENABLE_CI",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-docker-registry-server-password"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_URL",
+        "sensitive": false,
+        "value": "https://lpgregistry.azurecr.io"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-docker-registry-server-username"
+    },
+    {
+        "name": "ELASTICSEARCH_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-elasticsearch-password"
+    },
+    {
+        "name": "ELASTICSEARCH_USERNAME",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-elasticsearch-username"
+    },
+    {
+        "name": "ENV_PROFILE",
+        "sensitive": false,
+        "value": "integration"
+    },
+    {
+        "name": "ES_HOST",
+        "sensitive": false,
+        "value": "csl-elastic-integration.es.uksouth.azure.elastic-cloud.com"
+    },
+    {
+        "name": "ES_PORT",
+        "sensitive": false,
+        "value": "443"
+    },
+    {
+        "name": "ES_PROTOCOL",
+        "sensitive": false,
+        "value": "https"
+    },
+    {
+        "name": "JWT_KEY",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-jwt-key"
+    },
+    {
+        "name": "LEARNER_RECORD_URL",
+        "sensitive": false,
+        "value": "https://learning-record.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "OAUTH_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://identity.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "REGISTRY_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://civil-servant-registry.integration.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+        "sensitive": false,
+        "value": "false"
+    },
+    {
+        "name": "WEBSITES_PORT",
+        "sensitive": false,
+        "value": "9001"
+    }
+]
