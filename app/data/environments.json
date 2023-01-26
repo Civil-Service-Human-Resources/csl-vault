@@ -15,16 +15,8 @@
             "lpg-management": "lpg-lpgintegration-lpg-management",
             "lpg-report-service": "lpg-lpgintegration-lpg-report-service",
             "lpg-ui": "lpg-lpgintegration-lpg-ui",
-            "notification-service": "lpg-lpgintegration-notification-service"
+            "notification-service": "lpg-lpgintegration-notification-service",
+            "data-transchriver": "lpg-lpgintegration-lpg-data-transchriver"
         }
-    },
-    "test": {
-        "subscription": "CSL-Staging",
-        "resourceGroup": "lpgintegration",
-        "vault": "https://savvastest1.vault.azure.net/",
-        "modules": {
-            "test": "savvastest1"
-        }
-
     }
 }

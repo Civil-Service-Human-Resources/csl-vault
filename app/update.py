@@ -30,7 +30,7 @@ def add_variable_to_keyvault(environment, module, var_name, var_value):
 def variable_is_secret(environment, module, var_name):
     file = VarFile(environment, module)
     variable = file.get_variable(var_name)
-    return variable["secret"]
+    return variable["sensitive"]
 
 def get_key_vault_for_environment(environment):
     environment_service = EnvironmentService()

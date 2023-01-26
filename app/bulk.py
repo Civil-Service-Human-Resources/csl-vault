@@ -28,7 +28,7 @@ def add(file_path):
                 print(f"✅ {var_name} inserted variable in variables file")
 
 def get_variables_from_bulk_file(file_path):
-    json.loads(open(file_path, "r").read())
+    return json.loads(open(file_path, "r", encoding="utf-8-sig").read())
 
 def add_variable_to_key_vault(environment, module, var_name, var_value):
     key_vault = get_key_vault_for_environment(environment)
