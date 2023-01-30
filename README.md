@@ -1,5 +1,7 @@
 # Civil Service Learning Vault
 
+[![Run unit tests](https://github.com/Civil-Service-Human-Resources/csl-vault/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/Civil-Service-Human-Resources/csl-vault/actions/workflows/run-tests.yml)
+
 Manage variables and secrets for Civil Service Learning apps.
 
 * [Initial setup](#initial-setup)
