@@ -27,6 +27,7 @@ def bulk_load(environment):
             if variable["sensitive"]:
                 azure_key_vault = AzureKeyVault(environment_data["vault"])
                 app_service_properties.update_property(variable["name"], azure_key_vault.get_secret_key_vault_reference(variable["value"]))
+                print("🔑 Added key vault reference for " + variable["value"])
             if not variable["sensitive"]:
                 print(variable["name"] + ": " + variable["value"])
                 properties = app_service_properties.get_app_properties()

@@ -18,5 +18,25 @@
             "notification-service": "lpg-lpgintegration-notification-service",
             "data-transchriver": "lpg-lpgintegration-lpg-data-transchriver"
         }
+    },
+    "staging": {
+        "vault": "https://kv-lpgstaging-vars.vault.azure.net/",
+        "subscription": "CSL-Staging",
+        "resourceGroup": "lpgstaging",
+        "modules": {
+            "civil-servant-registry-service": "lpg-lpgstaging-civil-servant-registry",
+            "identity": "lpg-lpgstaging-identity",
+            "identity-management": "lpg-lpgstaging-identity-management",
+            "learning-locker-ui": "lpg-lpgstaging-learning-locker-ui",
+            "learning-locker-worker": "lpg-lpgstaging-learning-locker-api-worker",
+            "learning-locker-xapi": "lpg-lpgstaging-learning-locker-xapi",
+            "lpg-learner-record": "lpg-lpgstaging-lpg-learner-record",
+            "lpg-learning-catalogue": "lpg-lpgstaging-lpg-learning-catalogue",
+            "lpg-management": "lpg-lpgstaging-lpg-management",
+            "lpg-report-service": "lpg-lpgstaging-lpg-report-service",
+            "lpg-ui": "lpg-lpgstaging-lpg-ui",
+            "notification-service": "lpg-lpgstaging-notification-service",
+            "data-transchriver": "lpg-lpgstaging-lpg-data-transchriver"
+        }
     }
 }

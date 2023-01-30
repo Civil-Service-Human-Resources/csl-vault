@@ -1,1 +1,72 @@
-[]
+[
+    {
+        "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+        "sensitive": false,
+        "value": "false"
+    },
+    {
+        "name": "APPLICATIONINSIGHTS_ROLE_NAME",
+        "sensitive": false,
+        "value": "lpg-lpgstaging-notification-service"
+    },
+    {
+        "name": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+        "sensitive": true,
+        "value": "notification-service-applicationinsights-connection-string"
+    },
+    {
+        "name": "DOCKER_ENABLE_CI",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "ENV_PROFILE",
+        "sensitive": false,
+        "value": "staging"
+    },
+    {
+        "name": "WEBSITES_PORT",
+        "sensitive": false,
+        "value": "9006"
+    },
+    {
+        "name": "GOV_NOTIFY_API_KEY",
+        "sensitive": true,
+        "value": "notification-service-gov-notify-api-key"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_URL",
+        "sensitive": false,
+        "value": "https://lpgregistry.azurecr.io"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
+        "sensitive": true,
+        "value": "notification-service-docker-registry-server-username"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
+        "sensitive": true,
+        "value": "notification-service-docker-registry-server-password"
+    },
+    {
+        "name": "OAUTH_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://identity.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "CLIENT_ID",
+        "sensitive": true,
+        "value": "notification-service-client-id"
+    },
+    {
+        "name": "CLIENT_SECRET",
+        "sensitive": true,
+        "value": "notification-service-client-secret"
+    },
+    {
+        "name": "JWT_KEY",
+        "sensitive": true,
+        "value": "notification-service-jwt-key"
+    }
+]

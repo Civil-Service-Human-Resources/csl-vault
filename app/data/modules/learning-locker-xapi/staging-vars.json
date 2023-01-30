@@ -1,1 +1,62 @@
-[]
+[
+    {
+        "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+        "sensitive": false,
+        "value": "false"
+    },
+    {
+        "name": "MONGO_URL",
+        "sensitive": true,
+        "value": "learning-locker-xapi-mongo-url"
+    },
+    {
+        "name": "REDIS_URL",
+        "sensitive": true,
+        "value": "learning-locker-xapi-redis-url"
+    },
+    {
+        "name": "WEBSITES_PORT",
+        "sensitive": false,
+        "value": "8083"
+    },
+    {
+        "name": "ENV_PROFILE",
+        "sensitive": false,
+        "value": "staging"
+    },
+    {
+        "name": "REDIS_USE_TLS",
+        "sensitive": false,
+        "value": "1"
+    },
+    {
+        "name": "REDIS_PREFIX",
+        "sensitive": false,
+        "value": "learninglocker"
+    },
+    {
+        "name": "EXPRESS_PORT",
+        "sensitive": false,
+        "value": "8083"
+    },
+    {
+        "name": "DOCKER_ENABLE_CI",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_URL",
+        "sensitive": false,
+        "value": "https://lpgregistry.azurecr.io"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
+        "sensitive": true,
+        "value": "learning-locker-xapi-docker-registry-server-username"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
+        "sensitive": true,
+        "value": "learning-locker-xapi-docker-registry-server-password"
+    }
+]

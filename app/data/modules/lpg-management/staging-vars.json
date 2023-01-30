@@ -1,1 +1,192 @@
-[]
+[
+    {
+        "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+        "sensitive": false,
+        "value": "false"
+    },
+    {
+        "name": "APPLICATIONINSIGHTS_ROLE_NAME",
+        "sensitive": false,
+        "value": "lpg-lpgstaging-lpg-management"
+    },
+    {
+        "name": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+        "sensitive": true,
+        "value": "lpg-management-applicationinsights-connection-string"
+    },
+    {
+        "name": "AUTHENTICATION_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://identity.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "AUTHENTICATION_SERVICE_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "60000"
+    },
+    {
+        "name": "ENV_PROFILE",
+        "sensitive": false,
+        "value": "staging"
+    },
+    {
+        "name": "WEBSITES_PORT",
+        "sensitive": false,
+        "value": "3005"
+    },
+    {
+        "name": "SESSION_SECRET",
+        "sensitive": true,
+        "value": "lpg-management-session-secret"
+    },
+    {
+        "name": "DOCKER_ENABLE_CI",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "REQUEST_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "60000"
+    },
+    {
+        "name": "SERVER_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "235000"
+    },
+    {
+        "name": "OAUTH_CLIENT_ID",
+        "sensitive": true,
+        "value": "lpg-management-oauth-client-id"
+    },
+    {
+        "name": "OAUTH_CLIENT_SECRET",
+        "sensitive": true,
+        "value": "lpg-management-oauth-client-secret"
+    },
+    {
+        "name": "CALLBACK_URL",
+        "sensitive": false,
+        "value": "https://management.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "LPG_UI_URL",
+        "sensitive": false,
+        "value": "https://staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "REPORT_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://report.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "REPORT_SERVICE_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "235000"
+    },
+    {
+        "name": "COURSE_CATALOGUE_URL",
+        "sensitive": false,
+        "value": "https://learning-resources.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "COURSE_CATALOGUE_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "60000"
+    },
+    {
+        "name": "COURSE_CATALOGUE_USER",
+        "sensitive": false,
+        "value": "course_catalogue_user"
+    },
+    {
+        "name": "COURSE_CATALOGUE_PASS",
+        "sensitive": true,
+        "value": "lpg-management-course-catalogue-pass"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_URL",
+        "sensitive": false,
+        "value": "https://lpgregistry.azurecr.io"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
+        "sensitive": true,
+        "value": "lpg-management-docker-registry-server-username"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-management-docker-registry-server-password"
+    },
+    {
+        "name": "CONTENT_URL",
+        "sensitive": false,
+        "value": "https://cdn.staging.learn.civilservice.gov.uk/lpgdevcontent"
+    },
+    {
+        "name": "YOUTUBE_API_KEY",
+        "sensitive": true,
+        "value": "lpg-management-youtube-api-key"
+    },
+    {
+        "name": "YOUTUBE_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "60000"
+    },
+    {
+        "name": "REGISTRY_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://civil-servant-registry.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "REGISTRY_SERVICE_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "60000"
+    },
+    {
+        "name": "LEARNER_RECORD_URL",
+        "sensitive": false,
+        "value": "https://learning-record.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "LEARNER_RECORD_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "60000"
+    },
+    {
+        "name": "REDIS_HOST",
+        "sensitive": false,
+        "value": "lpg-lpgstaging-redis-session.redis.cache.windows.net"
+    },
+    {
+        "name": "REDIS_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-management-redis-password"
+    },
+    {
+        "name": "REDIS_PORT",
+        "sensitive": false,
+        "value": "6379"
+    },
+    {
+        "name": "ORG_REDIS_HOST",
+        "sensitive": false,
+        "value": "lpg-lpgstaging-redis-org.redis.cache.windows.net"
+    },
+    {
+        "name": "ORG_REDIS_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-management-org-redis-password"
+    },
+    {
+        "name": "ORG_REDIS_PORT",
+        "sensitive": false,
+        "value": "6379"
+    },
+    {
+        "name": "ORG_REDIS_TTL",
+        "sensitive": false,
+        "value": "604800"
+    }
+]
