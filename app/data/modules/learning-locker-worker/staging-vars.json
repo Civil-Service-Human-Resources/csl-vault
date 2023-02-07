@@ -1,1 +1,87 @@
-[]
+[
+    {
+        "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+        "sensitive": false,
+        "value": "false"
+    },
+    {
+        "name": "MONGODB_PATH",
+        "sensitive": true,
+        "value": "learning-locker-worker-mongodb-path"
+    },
+    {
+        "name": "REDIS_HOST",
+        "sensitive": false,
+        "value": "lpg-lpgstaging-redis.redis.cache.windows.net"
+    },
+    {
+        "name": "REDIS_PORT",
+        "sensitive": false,
+        "value": "6380"
+    },
+    {
+        "name": "REDIS_DB",
+        "sensitive": "",
+        "value": "0"
+    },
+    {
+        "name": "REDIS_PREFIX",
+        "sensitive": false,
+        "value": "learninglocker"
+    },
+    {
+        "name": "REDIS_PASSWORD",
+        "sensitive": true,
+        "value": "learning-locker-worker-redis-password"
+    },
+    {
+        "name": "QUEUE_PROVIDER",
+        "sensitive": "",
+        "value": "REDIS"
+    },
+    {
+        "name": "QUEUE_NAMESPACE",
+        "sensitive": "",
+        "value": "learninglocker"
+    },
+    {
+        "name": "ENV_PROFILE",
+        "sensitive": false,
+        "value": "staging"
+    },
+    {
+        "name": "REDIS_USE_TLS",
+        "sensitive": false,
+        "value": "1"
+    },
+    {
+        "name": "WEBSITES_PORT",
+        "sensitive": false,
+        "value": "8080"
+    },
+    {
+        "name": "TESTING",
+        "sensitive": false,
+        "value": "1"
+    },
+    {
+        "name": "DOCKER_ENABLE_CI",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_URL",
+        "sensitive": false,
+        "value": "https://lpgregistry.azurecr.io"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
+        "sensitive": true,
+        "value": "learning-locker-worker-docker-registry-server-username"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
+        "sensitive": true,
+        "value": "learning-locker-worker-docker-registry-server-password"
+    }
+]

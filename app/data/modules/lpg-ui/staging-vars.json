@@ -1,1 +1,202 @@
-[]
+[
+    {
+        "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+        "sensitive": false,
+        "value": "false"
+    },
+    {
+        "name": "APPLICATIONINSIGHTS_ROLE_NAME",
+        "sensitive": false,
+        "value": "lpg-lpgstaging-lpg-ui"
+    },
+    {
+        "name": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+        "sensitive": true,
+        "value": "lpg-ui-applicationinsights-connection-string"
+    },
+    {
+        "name": "AUTHENTICATION_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://identity.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "GOOGLE_ANALYTICS_ID",
+        "sensitive": false,
+        "value": "UA-22141655-3"
+    },
+    {
+        "name": "GOV_NOTIFY_API_KEY",
+        "sensitive": true,
+        "value": "lpg-ui-gov-notify-api-key"
+    },
+    {
+        "name": "LEARNER_RECORD_URL",
+        "sensitive": false,
+        "value": "https://learning-record.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "COURSE_CATALOGUE_URL",
+        "sensitive": false,
+        "value": "https://learning-resources.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "COURSE_CATALOGUE_USER",
+        "sensitive": false,
+        "value": "course_catalogue_user"
+    },
+    {
+        "name": "COURSE_CATALOGUE_PASS",
+        "sensitive": true,
+        "value": "lpg-ui-course-catalogue-pass"
+    },
+    {
+        "name": "XAPI_URL",
+        "sensitive": false,
+        "value": "https://xapi.staging.learn.civilservice.gov.uk/data/xAPI"
+    },
+    {
+        "name": "YOUTUBE_API_KEY",
+        "sensitive": true,
+        "value": "lpg-ui-youtube-api-key"
+    },
+    {
+        "name": "ENV_PROFILE",
+        "sensitive": false,
+        "value": "staging"
+    },
+    {
+        "name": "WEBSITES_PORT",
+        "sensitive": false,
+        "value": "3001"
+    },
+    {
+        "name": "SESSION_SECRET",
+        "sensitive": true,
+        "value": "lpg-ui-session-secret"
+    },
+    {
+        "name": "CONTENT_URL",
+        "sensitive": false,
+        "value": "https://cdn.staging.learn.civilservice.gov.uk/lpgdevcontent"
+    },
+    {
+        "name": "DOCKER_ENABLE_CI",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "REGISTRY_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://civil-servant-registry.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "LPG_UI_SERVER",
+        "sensitive": false,
+        "value": "https://staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "OAUTH_CLIENT_ID",
+        "sensitive": true,
+        "value": "lpg-ui-oauth-client-id"
+    },
+    {
+        "name": "OAUTH_CLIENT_SECRET",
+        "sensitive": true,
+        "value": "lpg-ui-oauth-client-secret"
+    },
+    {
+        "name": "LPG_MANAGEMENT_SERVER",
+        "sensitive": false,
+        "value": "https://management.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "FEEDBACK_RECIPIENT",
+        "sensitive": true,
+        "value": "lpg-ui-feedback-recipient"
+    },
+    {
+        "name": "CONTACT_EMAIL",
+        "sensitive": true,
+        "value": "lpg-ui-contact-email"
+    },
+    {
+        "name": "UV_THREADPOOL_SIZE",
+        "sensitive": false,
+        "value": "16"
+    },
+    {
+        "name": "REDIS_HOST",
+        "sensitive": false,
+        "value": "lpg-lpgstaging-redis-session.redis.cache.windows.net"
+    },
+    {
+        "name": "REDIS_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-ui-redis-password"
+    },
+    {
+        "name": "REDIS_PORT",
+        "sensitive": false,
+        "value": "6379"
+    },
+    {
+        "name": "ORG_REDIS_HOST",
+        "sensitive": false,
+        "value": "lpg-lpgstaging-redis-org.redis.cache.windows.net"
+    },
+    {
+        "name": "ORG_REDIS_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-ui-org-redis-password"
+    },
+    {
+        "name": "ORG_REDIS_PORT",
+        "sensitive": false,
+        "value": "6379"
+    },
+    {
+        "name": "ORG_REDIS_TTL",
+        "sensitive": false,
+        "value": "604800"
+    },
+    {
+        "name": "XAPI_USER",
+        "sensitive": true,
+        "value": "lpg-ui-xapi-user"
+    },
+    {
+        "name": "XAPI_PASS",
+        "sensitive": true,
+        "value": "lpg-ui-xapi-pass"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_URL",
+        "sensitive": false,
+        "value": "https://lpgregistry.azurecr.io"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
+        "sensitive": true,
+        "value": "lpg-ui-docker-registry-server-username"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-ui-docker-registry-server-password"
+    },
+    {
+        "name": "SERVER_TIMEOUT_MS",
+        "sensitive": false,
+        "value": "235000"
+    },
+    {
+        "name": "STATIC_ASSET_ROOT",
+        "sensitive": false,
+        "value": "https://asset-cdn.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "STATIC_ASSET_TTL",
+        "sensitive": false,
+        "value": "86400000"
+    }
+]

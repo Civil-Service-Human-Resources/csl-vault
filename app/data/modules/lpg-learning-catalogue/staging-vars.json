@@ -1,1 +1,117 @@
-[]
+[
+    {
+        "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+        "sensitive": false,
+        "value": "false"
+    },
+    {
+        "name": "APPLICATIONINSIGHTS_ROLE_NAME",
+        "sensitive": false,
+        "value": "lpg-lpgstaging-lpg-learning-catalogue"
+    },
+    {
+        "name": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-applicationinsights-connection-string"
+    },
+    {
+        "name": "AUTH_USER",
+        "sensitive": false,
+        "value": "user"
+    },
+    {
+        "name": "AUTH_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-auth-password"
+    },
+    {
+        "name": "ELASTICSEARCH_URI",
+        "sensitive": false,
+        "value": "https://elastic.staging.learn.civilservice.gov.uk:9200"
+    },
+    {
+        "name": "ELASTICSEARCH_USERNAME",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-elasticsearch-username"
+    },
+    {
+        "name": "ELASTICSEARCH_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-elasticsearch-password"
+    },
+    {
+        "name": "WEBSITES_PORT",
+        "sensitive": false,
+        "value": "9001"
+    },
+    {
+        "name": "ENV_PROFILE",
+        "sensitive": false,
+        "value": "staging"
+    },
+    {
+        "name": "DOCKER_ENABLE_CI",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "AZURE_ACCOUNT_KEY",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-azure-account-key"
+    },
+    {
+        "name": "AZURE_ACCOUNT_NAME",
+        "sensitive": false,
+        "value": "lpgdev"
+    },
+    {
+        "name": "AZURE_STORAGE_CONTAINER",
+        "sensitive": false,
+        "value": "lpgdevcontent"
+    },
+    {
+        "name": "OAUTH_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://identity.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "CLIENT_ID",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-client-id"
+    },
+    {
+        "name": "CLIENT_SECRET",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-client-secret"
+    },
+    {
+        "name": "LEARNER_RECORD_URL",
+        "sensitive": false,
+        "value": "https://learning-record.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "REGISTRY_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://civil-servant-registry.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_URL",
+        "sensitive": false,
+        "value": "https://lpgregistry.azurecr.io"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-docker-registry-server-username"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-docker-registry-server-password"
+    },
+    {
+        "name": "JWT_KEY",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-jwt-key"
+    }
+]

@@ -1,1 +1,67 @@
-[]
+[
+    {
+        "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+        "sensitive": false,
+        "value": "false"
+    },
+    {
+        "name": "MONGODB_PATH",
+        "sensitive": true,
+        "value": "learning-locker-ui-mongodb-path"
+    },
+    {
+        "name": "API_HOST",
+        "sensitive": false,
+        "value": "localhost"
+    },
+    {
+        "name": "API_PORT",
+        "sensitive": false,
+        "value": "8082"
+    },
+    {
+        "name": "WEBSITES_PORT",
+        "sensitive": false,
+        "value": "3000"
+    },
+    {
+        "name": "ENV_PROFILE",
+        "sensitive": false,
+        "value": "staging"
+    },
+    {
+        "name": "TESTING",
+        "sensitive": false,
+        "value": "1"
+    },
+    {
+        "name": "UI_HOST",
+        "sensitive": false,
+        "value": "lpg-lpgstaging-learning-locker-ui.azurewebsites.net"
+    },
+    {
+        "name": "UI_PORT",
+        "sensitive": false,
+        "value": "80"
+    },
+    {
+        "name": "DOCKER_ENABLE_CI",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_URL",
+        "sensitive": false,
+        "value": "https://lpgregistry.azurecr.io"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
+        "sensitive": true,
+        "value": "learning-locker-ui-docker-registry-server-username"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
+        "sensitive": true,
+        "value": "learning-locker-ui-docker-registry-server-password"
+    }
+]

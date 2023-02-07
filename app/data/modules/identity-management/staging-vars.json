@@ -1,1 +1,107 @@
-[]
+[
+    {
+        "name": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+        "sensitive": true,
+        "value": "identity-management-applicationinsights-connection-string"
+    },
+    {
+        "name": "APPLICATIONINSIGHTS_ROLE_NAME",
+        "sensitive": false,
+        "value": "lpg-lpgstaging-identity-management"
+    },
+    {
+        "name": "CLIENT_ID",
+        "sensitive": true,
+        "value": "identity-management-client-id"
+    },
+    {
+        "name": "CLIENT_SECRET",
+        "sensitive": true,
+        "value": "identity-management-client-secret"
+    },
+    {
+        "name": "DATA_RETENTION_JOB_CRON_SCHEDULE",
+        "sensitive": false,
+        "value": "0 54 15 * * *"
+    },
+    {
+        "name": "DATA_RETENTION_JOB_ENABLED",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "DATASOURCE",
+        "sensitive": true,
+        "value": "identity-management-datasource"
+    },
+    {
+        "name": "DOCKER_ENABLE_CI",
+        "sensitive": false,
+        "value": "true"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
+        "sensitive": true,
+        "value": "identity-management-docker-registry-server-password"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_URL",
+        "sensitive": false,
+        "value": "https://lpgregistry.azurecr.io"
+    },
+    {
+        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
+        "sensitive": true,
+        "value": "identity-management-docker-registry-server-username"
+    },
+    {
+        "name": "ENV_PROFILE",
+        "sensitive": false,
+        "value": "staging"
+    },
+    {
+        "name": "IDM_URL",
+        "sensitive": false,
+        "value": "https://lpg-lpgstaging-identity-management.azurewebsites.net"
+    },
+    {
+        "name": "JWT_KEY",
+        "sensitive": true,
+        "value": "identity-management-jwt-key"
+    },
+    {
+        "name": "LEARNER_RECORD_URL",
+        "sensitive": false,
+        "value": "https://learning-record.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "NOTIFICATION_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://lpg-lpgstaging-notification-service.azurewebsites.net"
+    },
+    {
+        "name": "OAUTH_URL",
+        "sensitive": false,
+        "value": "https://identity.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "REGISTRY_SERVICE_URL",
+        "sensitive": false,
+        "value": "https://civil-servant-registry.staging.learn.civilservice.gov.uk"
+    },
+    {
+        "name": "WEBSITES_CONTAINER_START_TIME_LIMIT",
+        "sensitive": false,
+        "value": "600"
+    },
+    {
+        "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
+        "sensitive": false,
+        "value": "false"
+    },
+    {
+        "name": "WEBSITES_PORT",
+        "sensitive": false,
+        "value": "8081"
+    }
+]
