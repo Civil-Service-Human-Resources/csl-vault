@@ -9,12 +9,13 @@ class VarFile:
         variables = self.get_all_variables()
         return variable_name in [v["name"] for v in variables]
 
-    def insert_variable(self, variable_name, variable_value, is_secret):
+    def insert_variable(self, variable_name, variable_value, is_secret, use_keyvault_reference):
         variables = self.get_all_variables()
         variables.append({
             "name": variable_name,
             "sensitive": is_secret,
-            "value": variable_value
+            "value": variable_value,
+			"use_keyvault_reference": use_keyvault_reference
         })
         file_to_write = self.get_file_to_write()
         file_to_write.write(json.dumps(variables, indent=4))

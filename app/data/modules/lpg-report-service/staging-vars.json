@@ -65,16 +65,6 @@
         "value": "https://lpgregistry.azurecr.io"
     },
     {
-        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
-        "sensitive": true,
-        "value": "lpg-report-service-docker-registry-server-username"
-    },
-    {
-        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
-        "sensitive": true,
-        "value": "lpg-report-service-docker-registry-server-password"
-    },
-    {
         "name": "DATASOURCE",
         "sensitive": true,
         "value": "lpg-report-service-datasource"

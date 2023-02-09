@@ -100,16 +100,6 @@
         "value": "https://lpgregistry.azurecr.io"
     },
     {
-        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
-        "sensitive": true,
-        "value": "lpg-learning-catalogue-docker-registry-server-username"
-    },
-    {
-        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
-        "sensitive": true,
-        "value": "lpg-learning-catalogue-docker-registry-server-password"
-    },
-    {
         "name": "JWT_KEY",
         "sensitive": true,
         "value": "lpg-learning-catalogue-jwt-key"

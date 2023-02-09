@@ -48,15 +48,5 @@
         "name": "DOCKER_REGISTRY_SERVER_URL",
         "sensitive": false,
         "value": "https://lpgregistry.azurecr.io"
-    },
-    {
-        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
-        "sensitive": true,
-        "value": "learning-locker-xapi-docker-registry-server-username"
-    },
-    {
-        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
-        "sensitive": true,
-        "value": "learning-locker-xapi-docker-registry-server-password"
     }
 ]

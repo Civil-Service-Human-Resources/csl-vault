@@ -29,7 +29,6 @@ def main():
 
 def get_arguments(action):
     parser = argparse.ArgumentParser()
-    validation = Validation()
 
     parser.add_argument("action")
 
@@ -41,6 +40,7 @@ def get_arguments(action):
 
     if action == "add":
         parser.add_argument("--secret", help="Secret", action=argparse.BooleanOptionalAction)
+        parser.add_argument("--raw", help="Use raw value from keyvault (no reference)", action=argparse.BooleanOptionalAction)
 
     if action in ["add", "update"]:
         parser.add_argument("--value", help="Value of secret")
@@ -66,7 +66,7 @@ def validate_arguments(args):
 
 def run_action(args):
     if args.action == "add":    
-        add.add_var(args.environment, args.module, args.name, args.value, True if args.secret else False)
+        add.add_var(args.environment, args.module, args.name, args.value, True if args.secret else False, False if args.raw else True)
 
     elif args.action == "update":
         update.update_var(args.environment, args.module, args.name, args.value)

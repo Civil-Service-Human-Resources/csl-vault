@@ -50,19 +50,9 @@
         "value": "true"
     },
     {
-        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
-        "sensitive": true,
-        "value": "lpg-learning-catalogue-docker-registry-server-password"
-    },
-    {
         "name": "DOCKER_REGISTRY_SERVER_URL",
         "sensitive": false,
         "value": "https://lpgregistry.azurecr.io"
-    },
-    {
-        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
-        "sensitive": true,
-        "value": "lpg-learning-catalogue-docker-registry-server-username"
     },
     {
         "name": "ELASTICSEARCH_PASSWORD",
@@ -123,5 +113,40 @@
         "name": "WEBSITES_PORT",
         "sensitive": false,
         "value": "9001"
+    },
+    {
+        "name": "RUSTICI_URL",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-rustici-url"
+    },
+    {
+        "name": "RUSTICI_USERNAME",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-rustici-username"
+    },
+    {
+        "name": "RUSTICI_PASSWORD",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-rustici-password"
+    },
+    {
+        "name": "RUSTICI_TENANT",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-rustici-tenant"
+    },
+    {
+        "name": "AZURE_STORAGE_CONNECTION_STRING",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-azure-storage-connection-string"
+    },
+    {
+        "name": "AZURE_CONTENT_CDN_ENDPOINT",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-azure-content-cdn-endpoint"
+    },
+    {
+        "name": "AZURE_STORAGE_RUSTICI_CONTAINER",
+        "sensitive": true,
+        "value": "lpg-learning-catalogue-azure-storage-rustici-container"
     }
 ]

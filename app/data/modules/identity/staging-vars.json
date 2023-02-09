@@ -115,16 +115,6 @@
         "value": "https://lpgregistry.azurecr.io"
     },
     {
-        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
-        "sensitive": true,
-        "value": "identity-docker-registry-server-username"
-    },
-    {
-        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
-        "sensitive": true,
-        "value": "identity-docker-registry-server-password"
-    },
-    {
         "name": "REGISTRY_SERVICE_URL",
         "sensitive": false,
         "value": "https://civil-servant-registry.staging.learn.civilservice.gov.uk"

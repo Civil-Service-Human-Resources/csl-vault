@@ -110,16 +110,6 @@
         "value": "https://lpgregistry.azurecr.io"
     },
     {
-        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
-        "sensitive": true,
-        "value": "lpg-management-docker-registry-server-username"
-    },
-    {
-        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
-        "sensitive": true,
-        "value": "lpg-management-docker-registry-server-password"
-    },
-    {
         "name": "CONTENT_URL",
         "sensitive": false,
         "value": "https://cdn.staging.learn.civilservice.gov.uk/lpgdevcontent"

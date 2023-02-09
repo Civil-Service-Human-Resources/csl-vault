@@ -25,19 +25,9 @@
         "value": "true"
     },
     {
-        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
-        "sensitive": true,
-        "value": "identity-docker-registry-server-password"
-    },
-    {
         "name": "DOCKER_REGISTRY_SERVER_URL",
         "sensitive": false,
         "value": "https://lpgregistry.azurecr.io"
-    },
-    {
-        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
-        "sensitive": true,
-        "value": "identity-docker-registry-server-username"
     },
     {
         "name": "DURATION_AFTER_REREG_ALLOWED_SECONDS",
@@ -183,5 +173,23 @@
         "name": "WHITELISTED_DOMAINS",
         "sensitive": true,
         "value": "identity-whitelisted-domains"
+    },
+    {
+        "name": "TEST_KV_REF",
+        "sensitive": true,
+        "value": "identity-test-kv-ref",
+        "use_keyvault_reference": true
+    },
+    {
+        "name": "TEST_NO_KV_REF",
+        "sensitive": true,
+        "value": "identity-test-no-kv-ref",
+        "use_keyvault_reference": false
+    },
+    {
+        "name": "TEST_NO_KV_REF_2",
+        "sensitive": false,
+        "value": "test",
+        "use_keyvault_reference": false
     }
 ]

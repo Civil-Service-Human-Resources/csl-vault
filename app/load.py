@@ -9,13 +9,23 @@ def load(environment, module, name):
     key_vault = get_key_vault_for_environment(environment)
 
     variable_from_file = get_variable_from_file(environment, module, name)
-
-    var_value = variable_from_file["value"]
-
-    property_value = key_vault.get_secret_key_vault_reference(var_value) if variable_from_file["sensitive"] else var_value
+    property_value = __extract_value_from_variable(key_vault, variable_from_file)
 
     update_property_in_app_service(environment, module, name, property_value)
-    
+
+def __extract_value_from_variable(key_vault: AzureKeyVault, variable):
+    var_value = variable["value"]
+    sensitive = variable["sensitive"]
+    use_keyvault_reference = variable["use_keyvault_reference"] or False
+
+    if sensitive:
+        if use_keyvault_reference:
+            return key_vault.get_secret_key_vault_reference(var_value)
+        else:
+            return key_vault.get_secret(var_value)
+    else:
+        return var_value
+
 def update_property_in_app_service(environment, module, name, value):
     app_service_properties = get_app_service_properties(environment, module)
     app_service_properties.update_property(name, value)

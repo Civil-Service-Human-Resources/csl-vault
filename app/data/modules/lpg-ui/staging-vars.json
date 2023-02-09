@@ -175,16 +175,6 @@
         "value": "https://lpgregistry.azurecr.io"
     },
     {
-        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
-        "sensitive": true,
-        "value": "lpg-ui-docker-registry-server-username"
-    },
-    {
-        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
-        "sensitive": true,
-        "value": "lpg-ui-docker-registry-server-password"
-    },
-    {
         "name": "SERVER_TIMEOUT_MS",
         "sensitive": false,
         "value": "235000"

@@ -1,11 +1,9 @@
-import json
-import os
 from VarFile import VarFile
 from AzureKeyVault import AzureKeyVault
 from EnvironmentService import EnvironmentService
 import Utils
 
-def add_var(environment, module, var_name, var_value, is_secret):
+def add_var(environment, module, var_name, var_value, is_secret, use_keyvault_reference):
     print(f"Adding variable '{var_name}' to {module} in {environment}...")
 
     value_added_to_variable = var_value
@@ -17,7 +15,7 @@ def add_var(environment, module, var_name, var_value, is_secret):
 
         print(f"Variable added to key vault as '{value_added_to_variable}'")
 
-    add_variable_to_file(environment, module, var_name, value_added_to_variable, is_secret=is_secret)
+    add_variable_to_file(environment, module, var_name, value_added_to_variable, is_secret=is_secret, use_keyvault_reference=use_keyvault_reference)
     print(f"✅ '{var_name}' added to the variables file.")
 
 def insert_variable_to_keyvault(environment, module, variable_name, secret_value):
@@ -34,6 +32,6 @@ def get_keyvault_for_environment(environment_name):
     key_vault_uri = environment_service.get_environment(environment_name)["vault"]
     return AzureKeyVault(key_vault_uri)
 
-def add_variable_to_file(environment, module, var_name, var_value, is_secret):
+def add_variable_to_file(environment, module, var_name, var_value, is_secret, use_keyvault_reference):
     var_file = VarFile(environment, module)
-    var_file.insert_variable(var_name, var_value, is_secret)    
+    var_file.insert_variable(var_name, var_value, is_secret, use_keyvault_reference)

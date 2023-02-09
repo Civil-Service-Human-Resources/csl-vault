@@ -25,19 +25,9 @@
         "value": "true"
     },
     {
-        "name": "DOCKER_REGISTRY_SERVER_PASSWORD",
-        "sensitive": true,
-        "value": "notification-service-docker-registry-server-password"
-    },
-    {
         "name": "DOCKER_REGISTRY_SERVER_URL",
         "sensitive": false,
         "value": "https://lpgregistry.azurecr.io"
-    },
-    {
-        "name": "DOCKER_REGISTRY_SERVER_USERNAME",
-        "sensitive": true,
-        "value": "notification-service-docker-registry-server-username"
     },
     {
         "name": "ENV_PROFILE",
