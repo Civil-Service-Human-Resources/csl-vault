@@ -93,32 +93,37 @@ def test_insert_variable_inserts_new_variable_in_file(mocker):
     variable_name = "NEW_VAR1"
     variable_value = "12345"
     is_secret = False
+    use_keyvault_reference = False
 
     expected_result = [
     {
         "name": "MY_VAR1",
         "sensitive": False,
+        "use_keyvault_reference": False,
         "value": "123"
     },
     {
         "name": "MY_VAR2",
         "sensitive": True,
+        "use_keyvault_reference": True,
         "value": "test-second-bulk-var-secret"
     },
     {
         "name": "MY_VAR2",
         "sensitive": False,
+        "use_keyvault_reference": False,
         "value": "123456"
     },
     {
         "name": "NEW_VAR1",
         "sensitive": False,
+        "use_keyvault_reference": False,
         "value": "12345"
     }
 ]
 
     var_file = VarFile("test", "test")
-    var_file.insert_variable(variable_name, variable_value, is_secret)
+    var_file.insert_variable(variable_name, variable_value, is_secret, use_keyvault_reference)
 
     json.loads(open("/tmp/var-file.json", "r").read()) == expected_result
 

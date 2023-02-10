@@ -2,16 +2,19 @@
     {
         "name": "MY_VAR1",
         "sensitive": false,
+		"use_keyvault_reference": false,
         "value": "123"
     },
     {
         "name": "MY_VAR2",
         "sensitive": true,
+		"use_keyvault_reference": true,
         "value": "test-second-bulk-var-secret"
     },
     {
         "name": "MY_VAR2",
         "sensitive": false,
+		"use_keyvault_reference": false,
         "value": "123456"
     }
 ]
