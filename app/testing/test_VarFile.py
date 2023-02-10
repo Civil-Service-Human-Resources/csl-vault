@@ -37,6 +37,7 @@ def test_get_variable_returns_correct_variable_details(mocker):
     expected_details = {
         "name": "MY_VAR1",
         "sensitive": False,
+        "use_keyvault_reference": False,
         "value": "123"
     }
 
@@ -59,16 +60,19 @@ def test_get_all_variables_returns_all_available_variables(mocker):
     {
         "name": "MY_VAR1",
         "sensitive": False,
+        "use_keyvault_reference": False,
         "value": "123"
     },
     {
         "name": "MY_VAR2",
         "sensitive": True,
+        "use_keyvault_reference": True,
         "value": "test-second-bulk-var-secret"
     },
     {
         "name": "MY_VAR2",
         "sensitive": False,
+        "use_keyvault_reference": False,
         "value": "123456"
     }
 ]
@@ -145,16 +149,19 @@ def test_update_variable_updates_variable_in_file_with_new_value(mocker):
     {
         "name": "MY_VAR1",
         "sensitive": False,
+        "use_keyvault_reference": False,
         "value": "98765"
     },
     {
         "name": "MY_VAR2",
         "sensitive": True,
+        "use_keyvault_reference": True,
         "value": "test-second-bulk-var-secret"
     },
     {
         "name": "MY_VAR2",
         "sensitive": False,
+        "use_keyvault_reference": False,
         "value": "123456"
     }
 ]
@@ -182,11 +189,13 @@ def test_delete_variable_removes_variable_from_file(mocker):
     {
         "name": "MY_VAR2",
         "sensitive": True,
+        "use_keyvault_reference": True,
         "value": "test-second-bulk-var-secret"
     },
     {
         "name": "MY_VAR2",
         "sensitive": False,
+        "use_keyvault_reference": False,
         "value": "123456"
     }
 ]
